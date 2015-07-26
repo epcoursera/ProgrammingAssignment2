@@ -27,7 +27,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Given a list of closures, calculate and store the inverse
+## Given a "CacheMatrix" calculate and store the inverse.
+
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
     m <- x$getinverse()
